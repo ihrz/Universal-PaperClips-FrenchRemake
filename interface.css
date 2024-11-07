@@ -20,6 +20,10 @@
   margin-right: auto;
 }
 
+#cheatButtonsDiv {
+    display: none;
+}
+
 #mobile-main-text
 {
   font-size: 2.5vh;
