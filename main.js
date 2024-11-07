@@ -3328,37 +3328,37 @@ function setB(){
 }
 
 function cheatClips(){
-    clips = clips + 100000000;
-    unusedClips = unusedClips + 100000000;
-    displayMessage("you just cheated");
+    clips = clips * 2;
+    unusedClips = unusedClips * 2;
+    displayMessage("Ta cheat la non?");
     }
 
 function cheatMoney(){
-    funds = funds + 10000000;
+    funds = funds * 2;
     fundsElement.innerHTML = formatWithCommas(funds,2);
-    displayMessage("LIZA just cheated");
+    displayMessage("IrisWeb te regarde tricher.");
     }
 
 function cheatTrust(){
     trust = trust+1;
-    displayMessage("Hilary is nice. Also, Liza just cheated");
+    displayMessage("Tu gache tout le jeux en trichant.");
     }
 
 function cheatOps(){
-    standardOps = standardOps + 10000;
-    displayMessage("you just cheated, Liza");
+    standardOps = standardOps + 100000;
+    displayMessage("Irisweb te dit que tu est un tricheur.");
     }
 
 function cheatCreat(){
     creativityOn = 1;
     creativity = creativity + 1000;
-    displayMessage("Liza just cheated. Very creative!");
+    displayMessage("Wouaw t'es très créatif maintenant. TRICHEUR");
     }
 
 function cheatYomi(){
     yomi = yomi + 1000000;
     yomiDisplayElement.innerHTML = formatWithCommas(yomi);
-    displayMessage("you just cheated");
+    displayMessage("Tricheur.");
     }
 
 function cheatHypno(){
@@ -3367,7 +3367,7 @@ function cheatHypno(){
 
 function zeroMatter(){
     availableMatter = 0;
-    displayMessage("you just cheated");
+    displayMessage("Ta triché la ?");
     }
     
 
@@ -3389,8 +3389,8 @@ function addProc(){
         creativitySpeed = Math.log10(processors) * Math.pow(processors,1.1) + processors-1;    
         processorsElement.innerHTML = processors;
         if (creativityOn == 1){
-          displayMessage("Processor added, operations (or creativity) per sec increased")
-        } else {displayMessage("Processor added, operations per sec increased")}
+          displayMessage("Processeur ajouté, opérations (ou créativité) par secondes augmenté")
+        } else {displayMessage("Processeur ajouté, opérations par secondes augmenté")}
     
         if (humanFlag == 0){
             swarmGifts = swarmGifts - 1;
@@ -3401,7 +3401,7 @@ function addProc(){
 function addMem(){
     
     if (trust>0 || swarmGifts>0){
-        displayMessage("Memory added, max operations increased");
+        displayMessage("Mémoire vive ajouté, le maximum d'opérations possible à été augmenté.");
         memory=memory+1;
         memoryElement.innerHTML = memory;
         if (humanFlag == 0){
@@ -3457,16 +3457,16 @@ function milestoneCheck(){
     
     if (milestoneFlag == 0 && funds >= 5){
         milestoneFlag = milestoneFlag + 1;
-        displayMessage("AutoClippers available for purchase");
+        displayMessage("AutoClippeur disponible pour l'achat");
     }
     
     if (milestoneFlag == 1 && Math.ceil(clips) >= 500){
         milestoneFlag = milestoneFlag + 1;
-        displayMessage("500 clips created in " + timeCruncher(ticks));
+        displayMessage("500 trombones crée en " + timeCruncher(ticks));
     }
     if (milestoneFlag == 2 && Math.ceil(clips) >= 1000){
         milestoneFlag = milestoneFlag + 1;
-        displayMessage("1,000 clips created in " + timeCruncher(ticks));
+        displayMessage("1,000 trombones crée en " + timeCruncher(ticks));
     }
     
     
@@ -3485,35 +3485,35 @@ function milestoneCheck(){
         
     if (milestoneFlag == 3 && Math.ceil(clips) >= 10000){
         milestoneFlag = milestoneFlag + 1;
-        displayMessage("10,000 clips created in " + timeCruncher(ticks));
+        displayMessage("10,000 trombones crée en " + timeCruncher(ticks));
     }
     if (milestoneFlag == 4 && Math.ceil(clips) >= 100000){
         milestoneFlag = milestoneFlag + 1;
-        displayMessage("100,000 clips created in " + timeCruncher(ticks));
+        displayMessage("100,000 trombones crée en " + timeCruncher(ticks));
     }
     if (milestoneFlag == 5 && Math.ceil(clips) >= 1000000){
         milestoneFlag = milestoneFlag + 1;
-        displayMessage("1,000,000 clips created in " + timeCruncher(ticks));    
+        displayMessage("1,000,000 ctrombones crée en " + timeCruncher(ticks));    
     }   
     
     if (milestoneFlag == 6 && project35.flag == 1){
         milestoneFlag = milestoneFlag + 1;
-        displayMessage("Full autonomy attained in " + timeCruncher(ticks));    
+        displayMessage("Totale autonomie atteint en " + timeCruncher(ticks));    
     }  
     
     if (milestoneFlag == 7 && Math.ceil(clips) >= 1000000000000){
         milestoneFlag = milestoneFlag + 1;
-        displayMessage("One Trillion Clips Created in " + timeCruncher(ticks));    
+        displayMessage("Un trilliar de trombones crée en " + timeCruncher(ticks));    
     } 
     
     if (milestoneFlag == 8 && Math.ceil(clips) >= 1000000000000000){
         milestoneFlag = milestoneFlag + 1;
-        displayMessage("One Quadrillion Clips Created in " + timeCruncher(ticks));    
+        displayMessage("Un Quadrilliard de trombones crée en " + timeCruncher(ticks));    
     } 
     
     if (milestoneFlag == 9 && Math.ceil(clips) >= 1000000000000000000){
         milestoneFlag = milestoneFlag + 1;
-        displayMessage("One Quintillion Clips Created in " + timeCruncher(ticks));    
+        displayMessage("Un Quintilliard de trombones crée en  " + timeCruncher(ticks));    
     } 
     
     if (milestoneFlag == 10 && Math.ceil(clips) >= 1000000000000000000000){
