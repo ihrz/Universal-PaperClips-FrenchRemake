@@ -51,6 +51,13 @@
   background-color: #004085; /* Even darker blue on active */
 }
 
+#cheatButtonsDiv .button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+}
+
 #mobile-main-text {
   font-size: 3vh;
   margin-top: 3vh;
