@@ -401,9 +401,43 @@ canvas {
   float: none;
   margin: 0 auto;
   text-align: center;
-  background: black; /* Change background color */
-  width: 100%;
+  background: #1e1e1e; /* Dark background */
+  width: 80%; /* Adjust width */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  padding: 20px; /* Padding inside the console */
+  color: #d4d4d4; /* Light text color */
+  font-family: "Lucida Console", Monaco, monospace; /* Monospace font */
+  position: relative; /* For positioning the header */
 }
+
+#consoleDiv::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 30px;
+  background: #333; /* Darker header background */
+  border-top-left-radius: 15px; /* Match console border radius */
+  border-top-right-radius: 15px; /* Match console border radius */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#consoleDiv::after {
+  content: "Terminal";
+  display: block;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  color: #d4d4d4; /* Light text color */
+  font-family: "Lucida Console", Monaco, monospace; /* Monospace font */
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #topDIv {
   float: none;
   margin: 0 auto;
@@ -730,21 +764,21 @@ p.clean3 {
 }
 
 p.console {
-  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco,
-    "Bitstream Vera Sans Mono", monospace;
-  font-size: 12;
-  color: white;
-  margin-top: 0;
-  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px; /* Slightly larger font */
+  color: #d4d4d4; /* Light text color */
+  margin-top: 40px; /* Adjust for header */
+  text-align: left; /* Align text to the left */
+  white-space: pre-wrap; /* Preserve whitespace */
 }
 
 p.consoleOld {
-  font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco,
-    "Bitstream Vera Sans Mono", monospace;
-  font-size: 12;
-  color: grey;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 14px; /* Slightly larger font */
+  color: #808080; /* Grey text color */
   margin-bottom: 0;
-  text-align: center;
+  text-align: left; /* Align text to the left */
+  white-space: pre-wrap; /* Preserve whitespace */
 }
 
 p.hypnoDrone {
