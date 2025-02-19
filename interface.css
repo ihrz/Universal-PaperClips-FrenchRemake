@@ -16,7 +16,39 @@
 }
 
 #cheatButtonsDiv {
-  display: none;
+  display: none; /* Keep it hidden by default */
+  background-color: #f8f9fa; /* Light grey background */
+  border: 1px solid #dee2e6; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Padding inside the div */
+  margin: 20px auto; /* Center and add margin */
+  width: 80%; /* Adjust width */
+  text-align: center; /* Center text */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Consistent font */
+  color: #333; /* Dark text color */
+}
+
+#cheatButtonsDiv button {
+  display: inline-block;
+  padding: 10px 20px; /* Padding for buttons */
+  margin: 10px 5px; /* Margin around buttons */
+  background-color: #007bff; /* Blue background */
+  color: #fff; /* White text */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  font-size: 14px; /* Font size */
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+#cheatButtonsDiv button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+#cheatButtonsDiv button:active {
+  background-color: #004085; /* Even darker blue on active */
 }
 
 #mobile-main-text {
@@ -153,17 +185,18 @@ h2 {
 
 .shop {
   position: absolute;
-  top: 8;
-  right: 8;
-  background-color: yellow;
+  top: 8px;
+  right: 8px;
+  background-color: #f8f9fa; /* Light grey background */
   z-index: 1;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding: 5px 10px; /* Adjust padding */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   text-align: right;
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: #333; /* Dark text color */
+  border: 1px solid #dee2e6; /* Light border */
 }
 
 .toolTip {
