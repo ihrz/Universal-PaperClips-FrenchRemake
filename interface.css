@@ -159,13 +159,11 @@
   margin-bottom: 2px;
 }
 
-#btnAddProc {
-  width: 70px;
-  margin-bottom: 1px;
-}
-
+#btnAddProc,
 #btnAddMem {
-  width: 70px;
+  width: auto; /* Adjust width to fit text content */
+  padding: 10px 20px; /* Add padding for better appearance */
+  margin: 5px; /* Add margin to prevent overlap */
 }
 
 #btnEntertainSwarm {
