@@ -93,3 +93,11 @@ Ce projet est ouvert à toutes les contributions ! Chaque idée ou amélioration
 Plongez dans l'univers captivant des trombones et découvrez jusqu'où peut aller une simple idée. Bonne chance et amusez-vous bien ! 🎉
 
 </div>
+
+---
+
+## 📜 **L'histoire du jeu**
+
+Pour en savoir plus sur l'histoire fascinante de **Universal Paperclips**, suivez ce lien vers un fichier détaillant le parcours du jeu :
+
+[Lire l'histoire du jeu - Universal Paperclips](https://plumeihrz.github.io/universalpaperclipsfrnch/universalpaperclips-history.md)
