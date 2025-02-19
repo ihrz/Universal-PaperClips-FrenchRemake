@@ -31,14 +31,14 @@
 
 #cheatButtonsDiv button {
   display: inline-block;
-  padding: 10px 20px; /* Padding for buttons */
-  margin: 10px 5px; /* Margin around buttons */
+  padding: 15px 30px; /* Increased padding for buttons */
+  margin: 15px 10px; /* Increased margin around buttons */
   background-color: #007bff; /* Blue background */
   color: #fff; /* White text */
   border: none; /* Remove border */
   border-radius: 5px; /* Rounded corners */
   text-decoration: none; /* Remove underline */
-  font-size: 14px; /* Font size */
+  font-size: 16px; /* Increased font size */
   cursor: pointer; /* Pointer cursor */
   transition: background-color 0.3s ease; /* Smooth transition */
 }
@@ -59,8 +59,8 @@
 }
 
 #mobile-main-text {
-  font-size: 3vh;
-  margin-top: 3vh;
+  font-size: 4vh; /* Increased font size */
+  margin-top: 4vh; /* Adjusted margin */
   text-align: center;
   color: #333; /* Change text color */
 }
@@ -95,9 +95,9 @@
   text-align: center;
   width: 80%;
   background-color: #d3d3d3; /* Change background color */
-  padding: 10% 10%;
+  padding: 15% 10%; /* Adjusted padding */
   border-radius: 15px;
-  font-size: 1.7vh;
+  font-size: 2vh; /* Increased font size */
   margin: 0 auto;
 }
 
@@ -124,6 +124,39 @@
 
   #page {
     display: none;
+  }
+
+  #cheatButtonsDiv button {
+    padding: 10px 20px; /* Adjusted padding for smaller screens */
+    font-size: 14px; /* Adjusted font size for smaller screens */
+  }
+
+  #mobile-main-text {
+    font-size: 3vh; /* Adjusted font size for smaller screens */
+  }
+
+  #fake-android {
+    font-size: 1.5vh; /* Adjusted font size for smaller screens */
+    padding: 10% 5%; /* Adjusted padding for smaller screens */
+  }
+
+  #consoleDiv {
+    width: 95%; /* Adjusted width for smaller screens */
+    padding: 20px; /* Adjusted padding for smaller screens */
+  }
+
+  p.console {
+    font-size: 14px; /* Adjusted font size for smaller screens */
+  }
+
+  .button {
+    padding: 10px 20px; /* Adjusted padding for smaller screens */
+    font-size: 16px; /* Adjusted font size for smaller screens */
+  }
+
+  .button2 {
+    padding: 3px 6px; /* Adjusted padding for smaller screens */
+    font-size: 12px; /* Adjusted font size for smaller screens */
   }
 }
 
@@ -442,10 +475,10 @@ canvas {
   margin: 0 auto;
   text-align: center;
   background: #1e1e1e; /* Dark background */
-  width: 80%; /* Adjust width */
+  width: 90%; /* Adjusted width */
   border-radius: 15px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-  padding: 20px; /* Padding inside the console */
+  padding: 30px; /* Increased padding */
   color: #d4d4d4; /* Light text color */
   font-family: "Lucida Console", Monaco, monospace; /* Monospace font */
   position: relative; /* For positioning the header */
@@ -805,9 +838,9 @@ p.clean3 {
 
 p.console {
   font-family: "Lucida Console", Monaco, monospace;
-  font-size: 14px; /* Slightly larger font */
+  font-size: 16px; /* Increased font size */
   color: #d4d4d4; /* Light text color */
-  margin-top: 40px; /* Adjust for header */
+  margin-top: 50px; /* Adjusted margin */
   text-align: left; /* Align text to the left */
   white-space: pre-wrap; /* Preserve whitespace */
 }
@@ -909,10 +942,10 @@ p.hypnoDrone {
   background: linear-gradient(to bottom, #28a745, #218838); /* Green gradient */
   border-radius: 10px; /* More rounded corners */
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
-  padding: 12.5px 25px;
+  padding: 15px 30px; /* Increased padding */
   text-shadow: #cccccc 0 1px 0;
   color: #ffffff; /* White text */
-  font-size: 16px;
+  font-size: 18px;
   font-family: helvetica, serif;
   text-decoration: none;
   vertical-align: middle;
@@ -956,10 +989,10 @@ p.hypnoDrone {
   background: linear-gradient(to bottom, #28a745, #218838); /* Green gradient */
   border-radius: 10px; /* More rounded corners */
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
-  padding: 2px 4px;
+  padding: 5px 10px; /* Increased padding */
   text-shadow: #cccccc 0 1px 0;
   color: #ffffff; /* White text */
-  font-size: 11px;
+  font-size: 14px; /* Increased font size */
   font-family: helvetica, serif;
   text-decoration: none;
   vertical-align: middle;
