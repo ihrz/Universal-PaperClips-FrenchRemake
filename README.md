@@ -4,7 +4,7 @@
 
 Bienvenue sur la version française du jeu **Universal Paperclips**, un jeu captivant et addictif de gestion et d'optimisation économique.
 
-![Universal Paperclips](https://via.placeholder.com/800x400.png?text=Universal+Paperclips+FR)
+![Universal Paperclips Logo](https://cdn.discordapp.com/attachments/1246838773694595193/1341910874482282536/Universal_Paperclips_Title_Screen.png?ex=67b7b763&is=67b665e3&hm=8aa28de025989f10342699d2537bcf496decfc1987ce6fd4ad250dfb844d2f90&)
 
 [![Jouer maintenant](https://img.shields.io/badge/Jouer-Maintenant-blue?style=for-the-badge)](https://plumeihrz.github.io/universalpaperclipsfrnch/)
 
@@ -21,6 +21,14 @@ Dans **Universal Paperclips**, vous incarnez une IA dont la mission est simple :
 - **Progrès technologiques** : Automatisez et optimisez la fabrication.
 - **Exploration philosophique** : Questionnez les limites et implications de l'IA.
 - **🎨 Design revisité** : Une interface moderne et colorée pour une meilleure expérience visuelle.
+
+<div align="center">
+
+![Visuel PC](https://cdn.discordapp.com/attachments/1246838773694595193/1341911610083770408/image.png?ex=67b7b813&is=67b66693&hm=054e5253a474391b7e819bc59214128b0493b78c3c7184a968f35b0b41966d16&)
+
+![Visuel Mobile](https://cdn.discordapp.com/attachments/1246838773694595193/1341911610377375814/image.png?ex=67b7b813&is=67b66693&hm=ef9f7e886ed604326b12bec47ad4d3152839232e849084833d166746cbbdce6e&)
+
+</div>
 
 ---
 
