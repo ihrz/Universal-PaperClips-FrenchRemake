@@ -1027,9 +1027,9 @@ p.hypnoDrone {
 body {
   background: linear-gradient(
     to right,
-    #ece9e6,
-    #ffffff
-  ); /* Light gradient background */
+    #ffecd2,
+    #fcb69f
+  ); /* Enhanced gradient background */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Consistent font */
   color: #333; /* Dark text color */
 }
